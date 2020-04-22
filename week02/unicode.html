@@ -1,0 +1,20 @@
+<script>
+    for(let i = 0; i<128; i++){
+        document.write(i+"<span style='background-color: lightgreen'>" + String.fromCharCode(i) +"</span><br>")
+    }
+
+
+    // 不要超出ASCII范围的字符作为变量名
+    var 厉害 = 1;
+
+    "厉害".charCodeAt(0).toString();
+
+    // \u5389\u5bb3
+    console.log(厉害)
+</script>
+// 词法
+InputElement
+    whitespace      // 空格
+    lineTerminator  // 换行
+    comment         // 注释
+    token           // 一切有效的东西
